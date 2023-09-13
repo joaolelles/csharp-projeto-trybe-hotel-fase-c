@@ -70,6 +70,27 @@
           }
         },
         {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 's' em 'byte[] Encoding.GetBytes(string s)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/joao/Documentos/Trybe/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/TokenGenerator.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 114,
+                  "endLine": 33,
+                  "endColumn": 134
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "CS1998",
           "level": "warning",
           "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
@@ -124,27 +145,6 @@
                   "startColumn": 54,
                   "endLine": 28,
                   "endColumn": 68
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 's' em 'byte[] Encoding.GetBytes(string s)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/joao/Documentos/Trybe/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/TokenGenerator.cs",
-                "region": {
-                  "startLine": 33,
-                  "startColumn": 114,
-                  "endLine": 33,
-                  "endColumn": 134
                 }
               }
             }
