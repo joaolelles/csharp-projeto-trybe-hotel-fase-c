@@ -22,7 +22,6 @@ namespace TrybeHotel.Services
                 return default!;
             }
             var result = await response.Content.ReadFromJsonAsync<object>();
-            //retornamos nosso objeto
             return result!;
         }
 
