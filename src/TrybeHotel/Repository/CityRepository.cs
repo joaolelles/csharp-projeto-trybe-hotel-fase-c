@@ -18,6 +18,7 @@ namespace TrybeHotel.Repository
             {
                 CityId = City.CityId,
                 Name = City.Name,
+                State = City.State,
             });
 
             return getCities;
